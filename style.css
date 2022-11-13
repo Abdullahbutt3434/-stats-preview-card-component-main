@@ -32,7 +32,7 @@ main {
 .container {
   width: 80%;
   margin: auto;
-  height: 425px;
+  height: auto;
   display: flex;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -41,18 +41,18 @@ main {
 .stats {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 56%;
   height: auto;
-  padding: 45px 1rem 1rem 60px;
+  padding: 25px 1rem 1rem 60px;
   background-color: var(--Dark-desaturated-blue-card-background);
 }
 
 .stats .stat--title {
   word-spacing: 5px;
   font-family: "Inter", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
-  padding: 1rem 8rem 1rem 0rem;
+  padding: 1rem 7rem 1rem 0rem;
 }
 
 .stats .stat--title span {
@@ -64,17 +64,17 @@ main {
   font-size: 0.9rem;
   font-weight: 400;
   color: var(--Slightly-transparent-white-main-paragraph);
-  padding-right: 9rem;
+  padding-right: 6rem;
   line-height: 1.7rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   letter-spacing: 0.5px;
 }
 
 .stats .stat--count {
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   /* padding-right: 20rem; */
   font-weight: 700;
   width: 70%;
@@ -104,7 +104,7 @@ main {
 
 .stats-img img {
   width: 100%;
-  height: inherit;
+  height: 100%;
 }
 .stats-img::before {
   content: "";
